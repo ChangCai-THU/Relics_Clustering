@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=jupyter_lab       # 作业名称
-#SBATCH --output=/home/caichang/slurm_test/slurm_output/jupyter_%j.out   # 标准输出
-#SBATCH --error=/home/caichang/slurm_test/slurm_output/jupyter_%j.err    # 错误输出
+#SBATCH --output=/home/caichang/Relics-clustering/slurm_output/jupyter_%j.out   # 标准输出
+#SBATCH --error=/home/caichang/Relics-clustering/slurm_output/jupyter_%j.err    # 错误输出
 #SBATCH --nodes=1                    # 使用 1 个节点
 #SBATCH --ntasks=1                   # 启动 1 个任务
 #SBATCH --cpus-per-task=4            # 每个任务使用 4 个 CPU 核心
