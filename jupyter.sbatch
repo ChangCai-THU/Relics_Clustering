@@ -50,8 +50,7 @@ echo "To connect from your local machine, use the following SSH tunnel command:"
 # 假设需要通过 relics-login 节点跳转
 # echo "ssh -N -f -L ${PORT}:${NODE_IP}:${PORT} ${USER}@relics-login"
 # 假设可以直接连接到计算节点 d
-echo "ssh -N -f -L ${PORT}:${NODE_IP}:${PORT} relics-login
-echo ""
+echo "ssh -N -f -L ${PORT}:${NODE_IP}:${PORT} relics-login"
 echo "After establishing the tunnel, open this URL in your browser:"
 echo "http://localhost:${PORT}"
 echo "------------------------------------------------------------------"
